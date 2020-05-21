@@ -49,8 +49,18 @@
         </tr>
         <tr>
           <th>{{porcentaje}}</th>
-          <th>percent</th>
+          <th>percent:'2.2-2'</th>
           <th>{{porcentaje | percent:'2.2-2'}}</th>
+        </tr>
+        <tr>
+          <th>{{salario}}</th>
+          <th>currency</th>
+          <th>{{salario | currency}}</th>
+        </tr>
+        <tr>
+          <th>{{salario}}</th>
+          <th>currency:'BOB':'symbol':'.0-0'</th>
+          <th>{{salario | currency:'BOB':'symbol-narrow':'.0-0'}}</th>
         </tr>
       </tbody>
       
